@@ -1,0 +1,22 @@
+{
+  "name": "tp-vue",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.32.0",
+    "pinia": "^2.1.4",
+    "vee-validate": "^4.11.1",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.6"
+  }
+}
