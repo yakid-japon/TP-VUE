@@ -43,7 +43,7 @@ import {useUserStore} from '@/stores/user.js'
 const userStore = useUserStore()
 const schema = yup.object({
     email: yup.string().required().email(),
-    password: yup.string().required().min(8),
+    password: yup.string().required().min(8), 
 });
 
 function onSubmit(values) {
